@@ -1,0 +1,25 @@
+{
+  "name": "catalogo-mcp",
+  "version": "0.1.0",
+  "description": "Servidor MCP de estudo: catálogo de autoatendimento com combos e modificadores",
+  "type": "module",
+  "bin": { "catalogo-mcp": "dist/server.js" },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/server.ts",
+    "start": "node dist/server.js",
+    "test": "tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "inspector": "npx @modelcontextprotocol/inspector tsx src/server.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  },
+  "engines": { "node": ">=20" }
+}
