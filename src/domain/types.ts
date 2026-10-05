@@ -1,6 +1,9 @@
 /** Valores monetários sempre em centavos (inteiros) para evitar erro de ponto flutuante. */
 export type Centavos = number;
 
+/** Percentuais sempre em pontos-base (inteiros): 1250 = 12,50%. */
+export type PontosBase = number;
+
 export interface Categoria {
   id: string;
   nome: string;
