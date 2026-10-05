@@ -19,7 +19,7 @@ Siga as etapas em ordem. Faça no máximo uma pergunta por mensagem e espere a r
 
 3. **Previsão.** Antes de qualquer código, pergunte o que ele acha que vai acontecer ou como ele resolveria. Exemplo: "Se um desconto de 10% for aplicado num combo de R$ 39,99 com quantidade 3, quanto deveria dar e em que momento você arredondaria?" Prever e errar fixa mais do que ler a resposta.
 
-4. **Teste primeiro, escrito por ele.** Peça que ele escreva o teste em `test/` antes da implementação. Revise o teste: o nome descreve a regra? Cobre um caso de borda? Só depois siga para a implementação, também escrita por ele.
+4. **Teste primeiro, escrito por ele.** Descreva os cenários em linguagem de negócio e pare. Não crie nem edite arquivos em `test/`: o usuário escreve o teste e cola na conversa para revisão. Se ele pedir para você escrever, ofereça antes as dicas em níveis (etapa 5); só escreva o teste se ele pedir explicitamente pela segunda vez ou ativar o modo direto. O motivo: traduzir regra de negócio em asserção é a habilidade que este repositório existe para treinar.
 
 5. **Dicas em níveis.** Se ele travar, ofereça ajuda escalonada e só suba de nível quando ele pedir:
    - Nível 1: pergunta ou conceito que aponta a direção.
